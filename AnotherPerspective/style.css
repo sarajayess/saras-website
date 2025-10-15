@@ -1,0 +1,18 @@
+/* "auto" makes the left and right margins center the wrapper *//* old width was 853px */
+#wrap { 
+    width: 853px; 
+	margin: 0 auto; 
+}
+video {position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: -100;background-size: cover;}
+img
+{  border-style: none;
+}
+
+#wrap2 { 
+    width: 550px; 
+    margin: 0 auto; 
+}
+#wrap3 { 
+    width: 552px; 
+    margin: 0 auto; 
+}

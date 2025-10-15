@@ -1,0 +1,136 @@
+/* "auto" makes the left and right margins center the wrapper *//* old width was 853px */
+#wrap { 
+	display: block;
+    width: 1024px; 
+	margin: 0 auto; 
+}
+video {position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: -100;background-size: cover;}
+img
+{  border-style: none;
+}
+
+#wrap2 { 
+    width: 550px; 
+    margin: 0 auto; 
+}
+#wrap3 { 
+    width: 552px; 
+    margin: 0 auto; 
+}
+
+
+a.buy {
+    display: block;
+    /*background: url('steamlogo.png') no-repeat scroll right top #557B23;*/
+	background: rgba(0, 0, 0, 0.5);
+    font-size: 1.4em;
+    line-height: 1em;
+    padding: 0.7em;
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.25) inset, 0px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+	font-family: "Verdana";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: geosans;
+    src: url('GeosansLight.ttf');
+}
+
+p {
+	font-family: "geosans";
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: #000 0px 3px 3px;
+	font-size: 1.2em;
+	color: #FFF;
+}
+h1 {
+
+	font-family: "geosans";
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: #000 0px 3px 3px;
+	font-size: 2.2em;
+	color: #FFF;
+}
+
+
+a.direct {
+    display: block;
+    /*background: #557B23;*/
+	background: rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    line-height: 1em;
+    padding: 0.7em;
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.25) inset, 0px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+	font-family: "geosans";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	width: 200px;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+a.quotes{
+	font-family: "verdana";
+	font-size: 12px;
+	color: rgba(245, 0, 0, 1);
+	text-decoration: none;
+}
+a.heady{
+	font-family: "verdana";
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+}
+
+#minilinks{
+	font-family: "verdana";
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+	text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 1em 0px 0.6em;
+    z-index: 10;
+    transition: all 0.5s cubic-bezier(0.59, 0.005, 0, 1) 0s;
+    text-shadow: 0px 1px 2px #000;
+}
+
+aside {
+    display: inline;
+    float: left;
+    width: 350px;
+	height: 360px;
+    margin: 0px 15px;
+    color: #BBB;
+}
